@@ -1,7 +1,7 @@
 .date-range .react-datepicker-wrapper {
   display: flex;
   flex: 1;
-  max-width: 160px;
+  max-width: 170px;
 }
 
 .date-range .react-datepicker__input-container {

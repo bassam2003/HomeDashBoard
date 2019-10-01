@@ -43,10 +43,6 @@ const Forms = () => (
           <FormInput value="New York" onChange={() => {}} />
         </Col>
         <Col md="5" className="form-group">
-          <FormSelect>
-            <option>Choose ...</option>
-            <option>...</option>
-          </FormSelect>
         </Col>
       </Row>
     </Form>

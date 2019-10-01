@@ -5,8 +5,8 @@ import {
   CardHeader,
   CardBody,
   CardFooter,
-  Col,
   Row,
+  Col,
   FormSelect
 } from "shards-react";
 

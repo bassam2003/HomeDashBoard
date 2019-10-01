@@ -40,11 +40,6 @@ const FormValidation = () => (
         <FormFeedback>The username is taken.</FormFeedback>
       </FormGroup>
       <FormGroup>
-        <FormSelect invalid>
-          <option>Choose</option>
-          <option>...</option>
-        </FormSelect>
-        <FormFeedback>Please select your state</FormFeedback>
       </FormGroup>
     </Form>
   </Col>
