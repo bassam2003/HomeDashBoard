@@ -32,7 +32,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feFirstName"
                     placeholder="First Name"
-                    value="Sierra"
+                    value="Bassam"
                     onChange={() => {}}
                   />
                 </Col>
@@ -42,7 +42,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feLastName"
                     placeholder="Last Name"
-                    value="Brooks"
+                    value="Sadi"
                     onChange={() => {}}
                   />
                 </Col>
@@ -55,7 +55,7 @@ const UserAccountDetails = ({ title }) => (
                     type="email"
                     id="feEmail"
                     placeholder="Email Address"
-                    value="sierra@example.com"
+                    value="bassamsadi@gmail.com"
                     onChange={() => {}}
                     autoComplete="email"
                   />
@@ -78,8 +78,19 @@ const UserAccountDetails = ({ title }) => (
                 <FormInput
                   id="feAddress"
                   placeholder="Address"
-                  value="1234 Main St."
                   onChange={() => {}}
+                />
+              </FormGroup>
+              <FormGroup>
+                <label htmlFor="feAddress">Telephone</label>
+                <FormInput
+                  id="feTelephone"
+                  placeholder="Telephone"
+                  onChange={() => {}}
+                  required
+                  maxlength="13" 
+                  size="10"
+                  format="(111)999-9999"
                 />
               </FormGroup>
               <Row form>
@@ -95,10 +106,6 @@ const UserAccountDetails = ({ title }) => (
                 {/* State */}
                 <Col md="4" className="form-group">
                   <label htmlFor="feInputState">State</label>
-                  <FormSelect id="feInputState">
-                    <option>Choose...</option>
-                    <option>...</option>
-                  </FormSelect>
                 </Col>
                 {/* Zip Code */}
                 <Col md="2" className="form-group">
@@ -113,7 +120,7 @@ const UserAccountDetails = ({ title }) => (
               <Row form>
                 {/* Description */}
                 <Col md="12" className="form-group">
-                  <label htmlFor="feDescription">Description</label>
+                  <label htmlFor="feDescription">Comments</label>
                   <FormTextarea id="feDescription" rows="5" />
                 </Col>
               </Row>

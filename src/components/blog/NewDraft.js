@@ -4,11 +4,11 @@ import {
   Card,
   CardHeader,
   CardBody,
+  Button,
   Form,
   FormGroup,
   FormInput,
-  FormTextarea,
-  Button
+  FormTextarea
 } from "shards-react";
 
 const NewDraft = ({ title }) => (
