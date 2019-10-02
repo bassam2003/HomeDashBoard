@@ -17,7 +17,6 @@ class Store extends EventEmitter {
 
     Dispatcher.register(this.registerToActions.bind(this));
   }
-
   registerToActions({ actionType, payload }) {
     switch (actionType) {
       case Constants.TOGGLE_SIDEBAR:
