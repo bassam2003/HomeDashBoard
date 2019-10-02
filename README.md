@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Quick Start
 
 * Install dependencies by running `yarn` or `npm install`.
@@ -39,7 +38,3 @@ Launches the test runner in the interactive watch mode.
 Builds the app for production to the `build` folder.
 
 ### `npm run eject`
-=======
-# HomeDashBoard
-Home DashBoard
->>>>>>> 9a7956fa19d5479de36df0d0f3b9c56373a2b162

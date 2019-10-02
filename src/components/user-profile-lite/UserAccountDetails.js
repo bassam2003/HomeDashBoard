@@ -55,7 +55,6 @@ const UserAccountDetails = ({ title }) => (
                     type="email"
                     id="feEmail"
                     placeholder="Email Address"
-                    value="bassamsadi@gmail.com"
                     onChange={() => {}}
                     autoComplete="email"
                   />
@@ -67,10 +66,9 @@ const UserAccountDetails = ({ title }) => (
                     type="password"
                     id="fePassword"
                     placeholder="Password"
-                    value="EX@MPL#P@$$w0RD"
                     onChange={() => {}}
                     autoComplete="current-password"
-                  />
+                  /> 
                 </Col>
               </Row>
               <FormGroup>
@@ -90,7 +88,7 @@ const UserAccountDetails = ({ title }) => (
                   required
                   maxlength="13" 
                   size="10"
-                  format="(111)999-9999"
+                  format="(999)999-9999"
                 />
               </FormGroup>
               <Row form>

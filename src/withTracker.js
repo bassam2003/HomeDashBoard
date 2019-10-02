@@ -1,3 +1,4 @@
+// Author: Bassam Sadi
 import React, { Component } from "react";
 import GoogleAnalytics from "react-ga";
 
@@ -8,8 +9,7 @@ const withTracker = (WrappedComponent, options = {}) => {
     if (process.env.NODE_ENV !== "production") {
       return;
     }
-
-    GoogleAnalytics.set({
+  GoogleAnalytics.set({
       page,
       ...options
     });

@@ -14,7 +14,6 @@ import {
 import PageTitle from "../components/common/PageTitle";
 import Forms from "../components/components-overview/Forms";
 import FormValidation from "../components/components-overview/FormValidation";
-import Sliders from "../components/components-overview/Sliders";
 import ProgressBars from "../components/components-overview/ProgressBars";
 
 const ComponentsOverview = () => (
@@ -25,7 +24,7 @@ const ComponentsOverview = () => (
       <Row noGutters className="page-header py-4">
         <PageTitle
           sm="4"
-          title="Forms & Components"
+          title="Sign in"
           subtitle="Overview"
           className="text-sm-left"
         />
@@ -35,7 +34,7 @@ const ComponentsOverview = () => (
         <Col lg="8" className="mb-4">
           <Card small className="mb-4">
             <CardHeader className="border-bottom">
-              <h6 className="m-0">Form Inputs</h6>
+              <h6 className="m-0">Sign in</h6>
             </CardHeader>
 
             <ListGroup flush>
@@ -54,11 +53,10 @@ const ComponentsOverview = () => (
           {/* Sliders & Progress Bars */}
           <Card small className="mb-4">
             <CardHeader className="border-bottom">
-              <h6 className="m-0">Sliders & Progress Bars</h6>
+              <h6 className="m-0">Progress Bars</h6>
             </CardHeader>
             <ListGroup flush>
               <ProgressBars />
-              <Sliders />
             </ListGroup>
           </Card>
         </Col>

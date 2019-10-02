@@ -13,38 +13,23 @@ import {
 
 const Forms = () => (
   <Col sm="12" md="6">
-    <strong className="text-muted d-block mb-2">Forms</strong>
     <Form>
       <FormGroup>
+      <label htmlFor="feUserName">User Name:  </label>
         <InputGroup className="mb-3">
           <InputGroupAddon type="prepend">
-            <InputGroupText>@</InputGroupText>
           </InputGroupAddon>
           <FormInput placeholder="Username" />
         </InputGroup>
       </FormGroup>
       <FormGroup>
+      <label htmlFor="feUserName">Password: </label>
         <FormInput
           type="password"
           placeholder="Password"
-          value="myCoolPassword"
           onChange={() => {}}
         />
       </FormGroup>
-      <FormGroup>
-        <FormInput
-          placeholder="1234 Main St"
-          value="7898 Kensington Junction, New York, USA"
-          onChange={() => {}}
-        />
-      </FormGroup>
-      <Row form>
-        <Col md="7">
-          <FormInput value="New York" onChange={() => {}} />
-        </Col>
-        <Col md="5" className="form-group">
-        </Col>
-      </Row>
     </Form>
   </Col>
 );

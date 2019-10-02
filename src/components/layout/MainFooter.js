@@ -39,27 +39,28 @@ MainFooter.propTypes = {
 
 MainFooter.defaultProps = {
   contained: false,
-  copyright: "Copyright © 2018 DesignRevision",
+  copyright: "",
   menuItems: [
     {
       title: "Home",
-      to: "#"
+      to: "/blog-overview",
+      htmlBefore: '<i class="material-icons">edit</i>',
+      htmlAfter: ""
     },
     {
-      title: "Services",
-      to: "#"
+      title: "Sign in",
+      htmlBefore: '<i class="material-icons">view_module</i>',
+      to: "/components-overview",
     },
     {
-      title: "About",
-      to: "#"
+      title: "Adminstration",
+      htmlBefore: '<i class="material-icons">table_chart</i>',
+      to: "/Adminstration",
     },
     {
-      title: "Products",
-      to: "#"
-    },
-    {
-      title: "Blog",
-      to: "#"
+      title: "Contact Form",
+      htmlBefore: '<i class="material-icons">person</i>',
+      to: "/user-profile-lite",
     }
   ]
 };
