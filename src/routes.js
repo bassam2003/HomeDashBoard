@@ -5,11 +5,10 @@ import { Redirect } from "react-router-dom";
 import { DefaultLayout } from "./layouts";
 
 // Route Views
-import BlogOverview from "./views/BlogOverview";
-import UserProfileLite from "./views/UserProfileLite";
+import Home from "./views/Home";
+import UserProfile from "./views/UserProfile";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Adminstration from "./views/Adminstration";
-import BlogPosts from "./views/BlogPosts";
 
 export default [
   {
@@ -21,12 +20,12 @@ export default [
   {
     path: "/blog-overview",
     layout: DefaultLayout,
-    component: BlogOverview
+    component: Home
   },
   {
     path: "/user-profile-lite",
     layout: DefaultLayout,
-    component: UserProfileLite
+    component: UserProfile
   },
   {
     path: "/components-overview",
@@ -37,10 +36,5 @@ export default [
     path: "/Adminstration",
     layout: DefaultLayout,
     component: Adminstration
-  },
-  {
-    path: "/blog-posts",
-    layout: DefaultLayout,
-    component: BlogPosts
   }
 ];

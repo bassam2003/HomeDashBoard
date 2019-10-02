@@ -6,9 +6,7 @@ import {
   Card,
   CardHeader,
   ListGroup,
-  ListGroupItem,
-  Form,
-  Alert
+  ListGroupItem
 } from "shards-react";
 
 import PageTitle from "../components/common/PageTitle";

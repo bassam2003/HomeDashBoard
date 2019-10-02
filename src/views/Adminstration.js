@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, CardHeader, CardBody } from "shards-react";
 
-import PageTitle from "../components/common/PageTitle";
-
 const Adminstration = () => (
   <Container fluid className="main-content-container px-4">
     {/* Page Header */}

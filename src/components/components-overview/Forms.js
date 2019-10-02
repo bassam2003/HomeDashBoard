@@ -1,14 +1,11 @@
 import React from "react";
 import {
-  Row,
   Col,
   Form,
   FormInput,
-  FormSelect,
   FormGroup,
   InputGroup,
-  InputGroupAddon,
-  InputGroupText
+  InputGroupAddon
 } from "shards-react";
 
 const Forms = () => (

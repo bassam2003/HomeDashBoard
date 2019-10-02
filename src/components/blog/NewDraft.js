@@ -7,8 +7,7 @@ import {
   Button,
   Form,
   FormGroup,
-  FormInput,
-  FormTextarea
+  FormInput
 } from "shards-react";
 
 const NewDraft = ({ title }) => (

@@ -1,12 +1,8 @@
 import React from "react";
 import {
-  Row,
   Col,
   Form,
-  FormGroup,
-  FormFeedback,
-  FormInput,
-  FormSelect
+  FormGroup
 } from "shards-react";
 
 const FormValidation = () => (
