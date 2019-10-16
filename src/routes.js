@@ -9,6 +9,7 @@ import Home from "./views/Home";
 import UserProfile from "./views/UserProfile";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Adminstration from "./views/Adminstration";
+import Shopping from "./views/Shopping";
 
 export default [
   {
@@ -21,6 +22,11 @@ export default [
     path: "/blog-overview",
     layout: DefaultLayout,
     component: Home
+  },
+  {
+    path: "/Shopping",
+    layout: DefaultLayout,
+    component: Shopping
   },
   {
     path: "/user-profile-lite",
@@ -36,5 +42,10 @@ export default [
     path: "/Adminstration",
     layout: DefaultLayout,
     component: Adminstration
+  },
+  {
+    path: "/Shopping",
+    layout: DefaultLayout,
+    component: Shopping
   }
 ];

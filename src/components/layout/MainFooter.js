@@ -61,6 +61,11 @@ MainFooter.defaultProps = {
       title: "Contact Form",
       htmlBefore: '<i class="material-icons">person</i>',
       to: "/user-profile-lite",
+    },
+    {
+      title: "Shopping",
+      htmlBefore: '<i class="material-icons">person</i>',
+      to: "/Shopping",
     }
   ]
 };
